@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{1BB819DC-DA4D-4539-A663-5BCFF7BB7136}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PointOfSale Status">
+    <Files>
+      <File FileName="PointOfSale/Program.cs" Line="9" Column="44" />
+      <File FileName="PointOfSale Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.PointOfSale PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
