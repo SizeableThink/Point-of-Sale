@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSale", "PointOfSale\PointOfSale.csproj", "{1BB819DC-DA4D-4539-A663-5BCFF7BB7136}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSale.Tests", "PointOfSale.Tests\PointOfSale.Tests.csproj", "{5F60F995-E2F9-4CB2-A42D-5A5DF05E66A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{1BB819DC-DA4D-4539-A663-5BCFF7BB7136}.Debug|x86.Build.0 = Debug|x86
 		{1BB819DC-DA4D-4539-A663-5BCFF7BB7136}.Release|x86.ActiveCfg = Release|x86
 		{1BB819DC-DA4D-4539-A663-5BCFF7BB7136}.Release|x86.Build.0 = Release|x86
+		{5F60F995-E2F9-4CB2-A42D-5A5DF05E66A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F60F995-E2F9-4CB2-A42D-5A5DF05E66A8}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F60F995-E2F9-4CB2-A42D-5A5DF05E66A8}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F60F995-E2F9-4CB2-A42D-5A5DF05E66A8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
