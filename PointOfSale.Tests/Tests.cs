@@ -26,9 +26,9 @@ namespace PointOfSale.Tests
         }
 
         [Test]
-        public void AppLaunches()
+        public void CartIsNotNull(ShoppingCart cart)
         {
-            app.Screenshot("First screen.");
+            Assert.IsNotNull(cart, "Shopping cart is empty!");
         }
     }
 }
