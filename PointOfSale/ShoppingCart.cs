@@ -91,7 +91,9 @@ namespace PointOfSale
             double subtotal = Total();
             subtotal = subtotal - VolumeDiscount();
             subtotal = subtotal - MemberDiscount();
-            ApplyTax(subtotal);
+            subtotal = Math.Round(subtotal, 2);
+            subtotal = ApplyTax(subtotal);
+            subtotal = Math.Round(subtotal, 2);
             return subtotal;
         }
 
