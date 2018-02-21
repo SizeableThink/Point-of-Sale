@@ -69,9 +69,16 @@ namespace PointOfSale
     }
         public class Customer
     {
-        private string customerID;
-        private bool memberStatus;
-        private bool taxStatus;
+        private string CustomerID;
+        private bool MemberStatus;
+        private bool TaxStatus;
+
+        public Customer(string id, bool member, bool tax)
+        {
+            CustomerID = id;
+            MemberStatus = member;
+            TaxStatus = tax;
+        }
     }
 
     public class Item

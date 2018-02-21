@@ -92,5 +92,14 @@ namespace PointOfSale.Tests
             cart.ProductIDs = new string[] { "A", "A", "A", "A", "A" };
             Assert.AreEqual(cart.VolumeDiscount(), 0);
         }
+
+        [Test]
+        public void TestVolumeDiscountWith0Items()
+        {
+            ShoppingCart cart = new ShoppingCart(new Database());
+            //add 0 items to cart
+            cart.ProductIDs = new string[] {};
+            Assert.AreEqual(cart.VolumeDiscount(), 0);
+        }
     }
 }
