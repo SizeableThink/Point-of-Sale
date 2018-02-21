@@ -41,15 +41,16 @@ namespace PointOfSale
             }
         }
 
-        /*public float ApplyVolumeDiscount(ShoppingCart cart)
+        public double VolumeDiscount()
         {
             //calculate cart total
 
-            if(cart.ProductIDs.Length >= 10)
+            if (ProductIDs.Length >= 10)
             {
-                return total of cart contents - (total of cart contents * .1);
+                return Total() * .1;
             }
-
+            return 0;
+            /*
             Elseif(cart items  >= 5 and < 10)
 
         {
@@ -66,6 +67,7 @@ namespace PointOfSale
         {
             return 0;
         }*/
+        }    
 
     }
         public class Customer
