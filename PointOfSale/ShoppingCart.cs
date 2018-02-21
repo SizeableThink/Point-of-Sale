@@ -85,10 +85,15 @@ namespace PointOfSale
             }
         }
 
-        /*public double calcPurchasePrice(ProductIds[] list, Customer customer)
+        public double CalcPurchasePrice()
         {
-            return 0;
-        }*/
+            CheckCartSize();
+            double subtotal = Total();
+            subtotal = subtotal - VolumeDiscount();
+            subtotal = subtotal - MemberDiscount();
+            ApplyTax(subtotal);
+            return subtotal;
+        }
 
     }
         

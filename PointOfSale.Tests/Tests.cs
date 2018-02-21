@@ -141,5 +141,16 @@ namespace PointOfSale.Tests
             cart.customer = new Customer("Bob", false, true);
             Assert.AreEqual(cart.ApplyTax(cart.Total()), 5);
         }
+
+        [Test]
+        public void TestCalcPurchasePrice1()
+        {
+            ShoppingCart cart = new ShoppingCart(new Database());
+            //add 10 items to cart
+            cart.ProductIDs = new string[] { "A", "A", "A", "A", "A", "A", "A", "A", "A", "A" };
+            cart.customer = new Customer("Bob", true, true);
+            //10 items, member discount, tax exempt
+            Assert.AreEqual(cart.CalcPurchasePrice(), 8);
+        }
     }
 }
