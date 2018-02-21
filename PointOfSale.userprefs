@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{1BB819DC-DA4D-4539-A663-5BCFF7BB7136}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="PointOfSale Status">
     <Files>
-      <File FileName="../:Users:sizeablethink:Projects:sizeablethink:pointofsale.git:PointOfSale:PointOfSale:Main.cs" Line="5" Column="20" />
-      <File FileName="PointOfSale.Tests/Tests.cs" Line="23" Column="52" />
-      <File FileName="PointOfSale/ShoppingCart.cs" Line="15" Column="6" />
-      <File FileName="PointOfSale/Test.cs" Line="6" Column="3" />
-      <File FileName="PointOfSale/EmptyClass.cs" Line="1" Column="1" />
+      <File FileName="PointOfSale.Tests/Tests.cs" Line="36" Column="34" />
+      <File FileName="PointOfSale/ShoppingCart.cs" Line="15" Column="14" />
+      <File FileName="PointOfSale/MainClass.cs" Line="13" Column="1" />
       <File FileName="PointOfSale Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

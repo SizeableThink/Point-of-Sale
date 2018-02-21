@@ -23,5 +23,17 @@ namespace PointOfSale.Tests
             ShoppingCart cart = new ShoppingCart();
             Assert.IsNotNull(cart, "Shopping cart is empty!");
         }
+
+        [Test]
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void CartIsOver50()
+        {
+            ShoppingCart cart = new ShoppingCart();
+            //add 51 ProductIds to cart
+            cart.ProductIDs = new string[] {"A", "A", "A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A",
+                "A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A","A",
+                "A","A","A","A"};
+            cart.CheckCartSize();
+        }
     }
 }

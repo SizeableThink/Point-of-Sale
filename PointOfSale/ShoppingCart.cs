@@ -3,8 +3,17 @@ namespace PointOfSale
 {
     public class ShoppingCart
     {
-        private string[] ProductIDs;
-        private Customer customer;
+        public string[] ProductIDs;
+        public Customer customer;
+
+        public void CheckCartSize()
+        {
+            if (ProductIDs.Length > 50)
+
+            {
+                throw new InvalidOperationException("Cart size cannot be greater than 50");
+            }
+        }
 
         /*public decimal calcPurchasePrice(ProductIds[] list, Customer customer)
         {
