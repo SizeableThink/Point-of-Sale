@@ -1,0 +1,12 @@
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/obj/Debug/PointOfSale.Tests.csprojResolveAssemblyReference.cache
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/obj/Debug/PointOfSale.Tests.csproj.CoreCompileInputs.cache
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/bin/Debug/PointOfSale.Tests.dll
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/bin/Debug/PointOfSale.Tests.pdb
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/bin/Debug/nunit.framework.dll
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/bin/Debug/PointOfSale.exe
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/bin/Debug/Xamarin.UITest.dll
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/bin/Debug/PointOfSale.pdb
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/bin/Debug/nunit.framework.xml
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/bin/Debug/Xamarin.UITest.xml
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/obj/Debug/PointOfSale.Tests.dll
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale.Tests/obj/Debug/PointOfSale.Tests.pdb

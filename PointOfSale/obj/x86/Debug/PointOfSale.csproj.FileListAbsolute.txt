@@ -1,0 +1,5 @@
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale/bin/Debug/PointOfSale.exe
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale/bin/Debug/PointOfSale.pdb
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale/obj/x86/Debug/PointOfSale.csproj.CoreCompileInputs.cache
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale/obj/x86/Debug/PointOfSale.exe
+/Users/sizeablethink/Projects/sizeablethink/pointofsale.git/PointOfSale/PointOfSale/obj/x86/Debug/PointOfSale.pdb
