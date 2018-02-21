@@ -111,5 +111,15 @@ namespace PointOfSale.Tests
             cart.customer = new Customer("Bob", true, false);
             Assert.AreEqual(cart.MemberDiscount(), 1);
         }
+
+        [Test]
+        public void TestMemberDiscountFalse()
+        {
+            ShoppingCart cart = new ShoppingCart(new Database());
+            //add 10 items to cart
+            cart.ProductIDs = new string[] { "A", "A", "A", "A", "A", "A", "A", "A", "A", "A" };
+            cart.customer = new Customer("Bob", false, false);
+            Assert.AreEqual(cart.MemberDiscount(), 0);
+        }
     }
 }
