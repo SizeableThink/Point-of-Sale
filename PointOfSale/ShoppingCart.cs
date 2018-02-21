@@ -81,7 +81,7 @@ namespace PointOfSale
 
             else
             {
-                return 0;
+                return subtotal;
             }
         }
 
