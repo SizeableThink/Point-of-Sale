@@ -4,30 +4,23 @@ using System.Linq;
 using NUnit.Framework;
 using Xamarin.UITest;
 using Xamarin.UITest.Queries;
+using PointOfSale;
 
 namespace PointOfSale.Tests
 {
-    [TestFixture(Platform.Android)]
-    [TestFixture(Platform.iOS)]
+    [TestFixture]
     public class Tests
     {
-        IApp app;
-        Platform platform;
-
-        public Tests(Platform platform)
+        [Test]
+        public void TestsCanPass()
         {
-            this.platform = platform;
-        }
-
-        [SetUp]
-        public void BeforeEachTest()
-        {
-            app = AppInitializer.StartApp(platform);
+            Assert.IsTrue(true);
         }
 
         [Test]
-        public void CartIsNotNull(ShoppingCart cart)
+        public void CartIsNotNull()
         {
+            ShoppingCart cart = new ShoppingCart();
             Assert.IsNotNull(cart, "Shopping cart is empty!");
         }
     }

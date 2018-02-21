@@ -3,11 +3,17 @@ namespace PointOfSale
 {
     public class ShoppingCart
     {
-            public string[] ProductIDs;
-            public Customer customer;
-    }
+        private string[] ProductIDs;
+        private Customer customer;
 
-    public class Customer
+        /*public decimal calcPurchasePrice(ProductIds[] list, Customer customer)
+        {
+            return 0;
+        }*/
+
+        //public ShoppingCart() => ProductIDs = [A, B, C, D];
+    }
+        public class Customer
     {
         private string memberStatus;
         private string taxStatus;
