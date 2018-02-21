@@ -49,6 +49,11 @@ namespace PointOfSale
             {
                 return Total() * .1;
             }
+
+            else if (ProductIDs.Length > 5)
+            {
+                return Total() * .05;
+            }
             return 0;
             /*
             Elseif(cart items  >= 5 and < 10)
