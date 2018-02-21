@@ -43,8 +43,6 @@ namespace PointOfSale
 
         public double VolumeDiscount()
         {
-            //calculate cart total
-
             if (ProductIDs.Length >= 10)
             {
                 return Total() * .1;
@@ -53,6 +51,19 @@ namespace PointOfSale
             else if (ProductIDs.Length > 5)
             {
                 return Total() * .05;
+            }
+
+            else
+            {
+                return 0;
+            }
+        }
+
+        public double MemberDiscount()
+        {
+            if (customer.GetMemberStatus() == true)
+            {
+                return Total() * .1;
             }
 
             else
@@ -70,7 +81,9 @@ namespace PointOfSale
         public class Customer
     {
         private string CustomerID;
+        //member is true, non-member is false
         private bool MemberStatus;
+        //tax exempt is true, not tax exempt is false
         private bool TaxStatus;
 
         public Customer(string id, bool member, bool tax)
@@ -78,6 +91,16 @@ namespace PointOfSale
             CustomerID = id;
             MemberStatus = member;
             TaxStatus = tax;
+        }
+
+        public bool GetMemberStatus()
+        {
+            return this.MemberStatus;
+        }
+
+        public bool GetTaxStatus()
+        {
+            return this.TaxStatus;
         }
     }
 
