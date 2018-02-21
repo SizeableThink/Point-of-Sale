@@ -54,25 +54,17 @@ namespace PointOfSale
             {
                 return Total() * .05;
             }
-            return 0;
-            /*
-            Elseif(cart items  >= 5 and < 10)
 
-        {
-                Return total of cart contents - (total of cart contents * .05);
-            }
-            Else(cart items >= 10)
-
-        {
-                Return total of cart contents - (total of cart contents * .1);
+            else
+            {
+                return 0;
             }
         }
 
-        /*public decimal calcPurchasePrice(ProductIds[] list, Customer customer)
+        /*public double calcPurchasePrice(ProductIds[] list, Customer customer)
         {
             return 0;
         }*/
-        }    
 
     }
         public class Customer

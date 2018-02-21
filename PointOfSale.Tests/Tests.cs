@@ -83,5 +83,14 @@ namespace PointOfSale.Tests
             cart.ProductIDs = new string[] { "A", "A", "A", "A", "A", "A", "A", "A", "A" };
             Assert.AreEqual(cart.VolumeDiscount(), .45);
         }
+
+        [Test]
+        public void TestVolumeDiscountGreaterThan5With5Items()
+        {
+            ShoppingCart cart = new ShoppingCart(new Database());
+            //add 5 items to cart
+            cart.ProductIDs = new string[] { "A", "A", "A", "A", "A" };
+            Assert.AreEqual(cart.VolumeDiscount(), 0);
+        }
     }
 }
