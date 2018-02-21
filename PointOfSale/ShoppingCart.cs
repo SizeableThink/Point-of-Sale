@@ -72,68 +72,28 @@ namespace PointOfSale
             }
         }
 
+        public double ApplyTax(double subtotal)
+        {
+            if (customer.GetTaxStatus() == false)
+            {
+                return subtotal + (subtotal * .045);
+            }
+
+            else
+            {
+                return 0;
+            }
+        }
+
         /*public double calcPurchasePrice(ProductIds[] list, Customer customer)
         {
             return 0;
         }*/
 
     }
-        public class Customer
-    {
-        private string CustomerID;
-        //member is true, non-member is false
-        private bool MemberStatus;
-        //tax exempt is true, not tax exempt is false
-        private bool TaxStatus;
+        
 
-        public Customer(string id, bool member, bool tax)
-        {
-            CustomerID = id;
-            MemberStatus = member;
-            TaxStatus = tax;
-        }
 
-        public bool GetMemberStatus()
-        {
-            return this.MemberStatus;
-        }
 
-        public bool GetTaxStatus()
-        {
-            return this.TaxStatus;
-        }
-    }
 
-    public class Item
-    {
-        private string ProductID;
-        private double Price;
-
-        public Item(string id, double price)
-        {
-            ProductID = id;
-            Price = price;
-        }
-
-        public double GetPrice()
-        {
-            return this.Price;
-        }
-    }
-
-    public class Database
-    {
-        public Dictionary<string, Item> items = new Dictionary<string, Item>() { 
-            { "A", new Item("A", 1.00) },
-            { "B", new Item("B", 2.00) },
-            { "C", new Item("C", 3.00) },
-            { "D", new Item("D", 4.00) },
-            { "E", new Item("E", 5.00) },
-        };
-
-        public Item GetItem(string id)
-        {
-            return items[id];
-        }
-    }
 }
